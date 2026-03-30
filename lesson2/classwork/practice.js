@@ -1,8 +1,9 @@
+const prompt = require("prompt-sync")();
+
 // Problem 1
 // Ask the user for their age.
 // Calculate and print how many decades old they are, rounded to the nearest whole number.
-
-
+let age = prompt("How old are you?")
 
 // Problem 2
 // Ask the user to enter a number.
