@@ -33,7 +33,7 @@ else {
 // Ask the user to guess the number.
 // Print "Correct!" if the guess matches the random number, else print "Try again!".
 
-
+// I didn't do this problem as we haven't yet learned how to generate random number.
 
 // Problem 4
 // Ask the user for a positive integer.
