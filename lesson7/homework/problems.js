@@ -2,25 +2,31 @@
 // Find and print the sum of all the numbers greater than 25 in the list.
 
 let numbers1 = [1, 63, 23, 86, 34, 75]
+let sum = 0;
 
 for (let i = 0; i < numbers1.length; i++) {
     let item = numbers1[i]
     if (item > 25) {
-        console.log(item)
+        sum += item
     }
 }
+
+console.log(sum)
 
 // Problem 2
 // Find and print the sum of all the numbers less than -10 in the list.
 
 let nums = [1, 75, -24, -53, 63, -15]
+let sums = 0;
 
 for (let i = 0; i < nums.length; i++) {
     let item = nums[i]
     if (item < -10) {
-        console.log(item)
+        sums += item;
     }
 }
+
+console.log(sums)
 
 // Problem 3
 // Find and print the biggest number less than 100 in the list.

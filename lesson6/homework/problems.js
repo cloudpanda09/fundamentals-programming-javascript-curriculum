@@ -41,11 +41,12 @@ console.log(counter, "full scores!")
 // Search for the color "blue" in the list and print its index if it's found.
 
 colors = ["red", "green", "blue", "purple", "orange", "pink", "blue"];
+let index = colors.indexOf("blue");
 
-if (colors.includes("blue")) {
-    console.log("Found blue");
+if (index !== -1) {
+    console.log("Found blue at index: " + index);
 } else {
-    console.log("No blue found")
+    console.log("No blue found");
 }
 
 // Problem 5
